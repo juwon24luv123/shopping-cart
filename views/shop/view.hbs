@@ -1,0 +1,23 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+           <div class="well pratical_well">
+                <h3 class="text-center">Shopping Cart</h3>
+                <form action="/add" method='post'>
+                    <label for="">Title</label>
+                    <input type="text" placeholder="Type Your Title Here" class="form-control" name="title">
+                    <label for="">Details</label>
+                    <input type="text" placeholder="Type Your Details Here" class="form-control" name="description">
+                    <label for="">Price</label>
+                    <input type="text" placeholder="Type Your Price Here" class="form-control" name="price">
+                    <label for="">Product-Image</label>
+                    <input type="file" multiple = "false" name="pic" accept="image/*" id="pics" onchange="upload()">
+                    <p class="text-center"><button class="btn btn-warning" type="submit">Create Product</button></p> 
+                </form>
+           </div>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+
